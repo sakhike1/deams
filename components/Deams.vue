@@ -17,7 +17,7 @@
       <div class="mx-auto max-w-3xl grid grid-cols-12 gap-6 lg:gap-8">
         <!-- Icon Block -->
         <div data-aos="slide-up" class="col-span-6 sm:col-span-4 text-center">
-          <img class="mx-auto h-20 w-20 text-gray-800 dark:text-gray-200" src="~/assets/icons8-topic-75 8.png" alt="" />
+          <img class="mx-auto h-20 w-20 text-gray-800 dark:text-gray-200" src="~/assets/AppImage.png" alt="" />
 
           <div class="mt-2 sm:mt-6">
             <h3 class="text-lg font-semibold text-gray-500 dark:text-gray-200">
@@ -29,7 +29,7 @@
 
         <!-- Icon Block -->
         <div data-aos="slide-up" class="col-span-6 sm:col-span-4 text-center">
-          <img class="mx-auto h-20 w-20 text-gray-800 dark:text-gray-200" src="~/assets/Group 3.png" alt="" />
+          <img class="mx-auto h-20 w-20 text-gray-800 dark:text-gray-200" src="~/assets/phone.png" alt="" />
           <div class="mt-2 sm:mt-6">
             <h3 class="text-lg font-semibold text-gray-500 dark:text-gray-200">
               Custom mobile apps
@@ -40,8 +40,7 @@
 
         <!-- Icon Block -->
         <div data-aos="slide-up" class="col-span-6 col-start-4 sm:col-span-4 text-center">
-          <img class="mx-auto h-20 w-20 text-gray-800 dark:text-gray-200"
-            src="~/assets/icons8-project-management-50 2.png" alt="" />
+          <img class="mx-auto h-20 w-20 text-gray-800 dark:text-gray-200" src="~/assets/idea.png" alt="" />
           <div class="mt-2 sm:mt-6">
             <h3 class="text-lg font-semibold text-gray-500 dark:text-gray-200">
               Validate your idea
