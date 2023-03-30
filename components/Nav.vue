@@ -26,7 +26,7 @@
               Home</nuxt-link>
           </li>
           <li>
-            <nuxt-link class="text-black text-sm hover:text-blue-300" to="OurService">Our Services
+            <nuxt-link class="joinBtn text-black text-sm " to="OurService">Our Services
             </nuxt-link>
           </li>
           <li>
@@ -85,5 +85,10 @@ export default {
 
 .scale-slide-leave-to {
   transform: scale(0.8);
+}
+
+.joinBtn:hover {
+  display: inline-block;
+  color: royalblue;
 }
 </style>

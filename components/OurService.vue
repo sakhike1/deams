@@ -56,6 +56,7 @@
 
 
         </div>
+        <Collaborate />
         <Footer />
     </div>
 </template>
