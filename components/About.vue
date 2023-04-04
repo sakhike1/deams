@@ -1,5 +1,6 @@
 <template>
     <div class="isolate bg-white">
+        <Title>{{ title }}</Title>
         <Nav />
 
         <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
@@ -41,6 +42,7 @@
 
 
 <script>
+const title = useState('title')
 export default {};
 </script>
 

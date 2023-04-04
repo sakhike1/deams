@@ -24,14 +24,14 @@
                             Fill in the form
                         </h2>
 
-                        <form action="https://formeezy.com/api/v1/forms/63b2b8aa9e4ddf0008515d85/submissions" method="POST"
-                            enctype="multipart/form-data">
+                        <form @submit.prevent="login" @keydown="form.onKeydown($event)" enctype="multipart/form-data">
                             <div class="  ">
                                 <form>
                                     <div class="form-group mb-6">
-                                        <input required="required" v-model="name" type="text"
+                                        <input required="required" v-model="form.surname" type="text"
                                             class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                                             id="exampleInput7" placeholder="Name" />
+                                        <div />
                                     </div>
                                     <div class="form-group mb-6">
                                         <input required="required" v-model="form.email" type="email"

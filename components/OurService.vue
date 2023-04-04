@@ -20,7 +20,7 @@
             <section data-aos="fade-down" data-aos-duration="3000" class="py-10 mt-15 sm:py-16 lg:py-24">
                 <div class="px-4 py-15 mt-20 mx-auto max-w-7xl sm:px-6 lg:px-8">
                     <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
-                        <div data-aos="fade-down" data-aos-duration="3000">
+                        <div>
                             <h1 class="text-2xl font-bold text-black sm:text-2xl lg:text-4xl">
                                 Whether you're looking to create a new app from scratch
                                 <div class="relative inline-flex">
@@ -47,8 +47,7 @@
                         </div>
 
                         <div>
-                            <img data-aos="fade-down" data-aos-duration="3000" class="w-full" src="~/assets/coding.png"
-                                alt="" />
+                            <img class="w-full" src="~/assets/coding.png" alt="" />
                         </div>
                     </div>
                 </div>
