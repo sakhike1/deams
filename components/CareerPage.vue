@@ -20,8 +20,8 @@
                         </p>
                         <nuxt-link href="#"
                             class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white bg-blue-400 rounded-lg hover:bg-blue-450 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
-                            :to="{ path: 'Jobs' }">
-                            View jobs
+                            :to="{ path: 'Contact' }">
+                            Get in touch
                             <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
