@@ -7,6 +7,7 @@
             </v-carousel-item>
         </v-carousel>
     </div>
+    <Consultation />
 </template>
   
 <script>
