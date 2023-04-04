@@ -5,8 +5,7 @@
             <div class="py-10 sm:py-16 lg:py-24 2xl:pl-24">
                 <div class="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-8 2xl:gap-x-20">
                     <div class="lg:order-2 2xl:-mr-24">
-                        <img class="w-full h-80 shadow-xl rounded-xl"
-                            src="~/assets/2209.i201.035.S.m004.c13.mobile app development isometric.jpg" alt="" />
+                        <img class="w-full h-80 shadow-xl rounded-xl" src="~/assets/robot.jpg" alt="" />
                     </div>
 
                     <div class="lg:order-1">
