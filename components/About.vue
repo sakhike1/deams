@@ -27,9 +27,8 @@
                         </h2>
                     </div>
 
-                    <div class="mt-10 sm:mt-16">
-                        <img data-aos="fade-up" data-aos-duration="3000"
-                            class="w-full max-w-3xl mx-auto -mb-16 rounded-lg shadow-xl"
+                    <div data-aos="fade-up" data-aos-duration="3000" class="mt-10 sm:mt-16">
+                        <img class="w-full max-w-3xl mx-auto -mb-16 rounded-lg shadow-xl"
                             src="https://cdn.rareblocks.xyz/collection/celebration/images/features/5/dashboard-screenshot.png"
                             alt="" />
                     </div>
