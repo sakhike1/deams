@@ -14,15 +14,15 @@
                         </h2>
 
                         <div class="flex flex-col items-start mt-8 sm:space-x-4 sm:flex-row sm:items-center lg:mt-12">
-                            <a href="#_"
-                                class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+                            <nuxt-link to="Contact" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden
+                                        group rounded-md">
                                 <span
                                     class="w-full h-full bg-gradient-to-br from-[#454545] via-[#454545] to-[#454545] group-hover:from-[#00FF00] group-hover:via-[#00FF00] group-hover:to-[#00FF00] absolute"></span>
                                 <span
                                     class="relative px-6 py-3 transition-all ease-out rounded-md group-hover:bg-opacity-0 duration-400">
                                     <span class="relative text-white">Talk To Deams</span>
                                 </span>
-                            </a>
+                            </nuxt-link>
                         </div>
                     </div>
                 </div>

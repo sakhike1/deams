@@ -24,9 +24,9 @@
                             Fill in the form
                         </h2>
 
-                        <form @submit.prevent="login" @keydown="form.onKeydown($event)" enctype="multipart/form-data">
+                        <form>
                             <div class="  ">
-                                <form>
+                                <form action="https://usebasin.com/f/3cd9b65d1d5b" method="POST">
                                     <div class="form-group mb-6">
                                         <input required="required" v-model="form.surname" type="text"
                                             class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border    rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
@@ -154,9 +154,11 @@ export default {
                     "{https://formeezy.com/api/v1/forms/63b2b8aa9e4ddf0008515d85/submissions}",
                     formData
                 )
+
                 .then(({ data }) => {
                     const { redirect } = data;
                     // Redirect used for reCAPTCHA and/or thank you page
+
                     window.location.href = redirect;
                 })
                 .catch((e) => {
