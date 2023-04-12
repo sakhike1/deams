@@ -7,10 +7,10 @@
                     <img src="~/assets/image.png" loading="lazy" width="" height="" />
                 </div>
                 <div class="md:7/12 lg:w-1/2">
-                    <h2 class="text-3xl font-bold text-gray-400 md:text-4xl dark:text-white">
+                    <h2 class="text-2xl font-bold text-gray-400 md:text-2xl dark:text-white">
                         Our work is carried
                         <span class="bg-clip-text text-transparent bg-gradient-to-bl from-orange-400 to-purple-500"> out by
-                            passionate developers </span>
+                            passionate <br> developers </span>
                     </h2>
 
                     <div class="divide-y space-y-4 divide-gray-100 dark:divide-gray-800">
