@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <OurService />
+        <ReachOut />
     </div>
 </template>
 

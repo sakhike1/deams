@@ -11,7 +11,7 @@
               </div>
             </div>
           </div>
-          <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+          <h3 class="text-2xl sm:text-xl text-gray-400 font-semibold dark:text-white py-4">
             Do you have an app idea ?
           </h3>
           <p class="text-md text-gray-500 dark:text-gray-300 py-4">
@@ -26,7 +26,7 @@
               <img src="~/assets/uy.png" alt="" />
             </div>
           </div>
-          <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+          <h3 class="text-2xl sm:text-xl text-gray-400 font-semibold dark:text-white py-4">
             Design your app
           </h3>
           <p class="text-md text-gray-500 dark:text-gray-300 py-4">
@@ -43,7 +43,7 @@
               </div>
             </div>
           </div>
-          <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+          <h3 class="text-2xl sm:text-xl text-gray-400 font-semibold dark:text-white py-4">
             Lets build your app
           </h3>
           <p class="text-md text-gray-500 dark:text-gray-300 py-4">

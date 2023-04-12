@@ -7,14 +7,12 @@
                     <img src="~/assets/image.png" loading="lazy" width="" height="" />
                 </div>
                 <div class="md:7/12 lg:w-1/2">
-                    <h2 class="text-3xl font-bold text-gray-700 md:text-4xl dark:text-white">
+                    <h2 class="text-3xl font-bold text-gray-400 md:text-4xl dark:text-white">
                         Our work is carried
-                        <span class="text-blue-300"> out by passionate developers </span>
+                        <span class="bg-clip-text text-transparent bg-gradient-to-bl from-orange-400 to-purple-500"> out by
+                            passionate developers </span>
                     </h2>
-                    <p class="my-8 text-gray-400 text-sm dark:text-gray-300">
-                        We pride ourselves with our excellent work, we have worked on many
-                        cool things
-                    </p>
+
                     <div class="divide-y space-y-4 divide-gray-100 dark:divide-gray-800">
                         <div class="mt-8 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-indigo-100 dark:bg-indigo-900/20">
@@ -26,7 +24,7 @@
                                 </svg>
                             </div>
                             <div class="w-5/6">
-                                <h4 class="font-semibold text-lg text-gray-700 dark:text-indigo-300">
+                                <h4 class="font-semibold text-lg text-gray-400 dark:text-indigo-300">
                                     Chat to us
                                 </h4>
                                 <p class="text-gray-400 text-xs dark:text-gray-400">
@@ -44,7 +42,7 @@
                                 </svg>
                             </div>
                             <div class="w-5/6">
-                                <h4 class="font-semibold text-lg text-gray-700 dark:text-teal-300">
+                                <h4 class="font-semibold text-lg text-gray-400 dark:text-teal-300">
                                     We mean business
                                 </h4>
                                 <p class="text-gray-400 text-xs dark:text-gray-400">

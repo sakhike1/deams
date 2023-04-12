@@ -7,7 +7,8 @@
             <p class="text-base leading-relaxed text-s text-left xl:w-2/4 lg:w-3/4 mx-auto">
               Services
             </p>
-            <h1 class="text-3xl font-bold text-gray-700 text-left xl:w-2/4 lg:w-3/4 mx-auto">
+            <h1
+              class="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-bl from-orange-400 to-purple-500 text-left xl:w-2/4 lg:w-3/4 mx-auto">
               We provide advanced app solutions <br />
               by Driving excellence
             </h1>
