@@ -3,10 +3,10 @@
     <div class="px-4 bg-gray-100 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <!-- Title -->
         <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-            <h2 class="text-2xl font-bold md:text-4xl md:leading-tight text-gray-400">
+            <h2 class="text-2xl p-10 font-bold md:text-4xl md:leading-tight text-gray-400">
                 Meet the <span class="text-blue-300"> A team </span>
             </h2>
-            <p class="mt-1 text-gray-400 dark:text-gray-400">Creative people</p>
+
         </div>
         <!-- End Title -->
 
@@ -159,18 +159,21 @@
 
         <!-- Card -->
         <div class="mt-12 flex justify-center">
-            <div class="border border-slate-300 hover:border-indigo-300 p-1.5 pl-5 rounded-full">
+            <div class="border  hover:border-indigo-700 p-1.5 pl-5 rounded-full">
                 <div class="flex items-center gap-x-3">
                     <span class="text-sm text-black">Want to work with us?</span>
-                    <nuxt-link
-                        class="inline-flex justify-center items-center gap-x-2 text-center bg-blue-200 border hover:border-gray-300 text-sm text-white hover:text-blue-700 font-medium hover:shadow-sm rounded-full focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:bg-gray-900 dark:border-gray-700 dark:hover:border-gray-600 dark:text-blue-500 dark:hover:text-blue-400 dark:hover:shadow-slate-700/[.7] dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800"
-                        to="Career">
-                        We are hiring
-                        <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                        </svg>
-                    </nuxt-link>
+                    <a href="#_"
+                        class="relative inline-flex items-center justify-center inline-block p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-full shadow-2xl group">
+                        <span
+                            class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-red-500 rounded-full blur-md ease"></span>
+                        <span class="absolute inset-0 w-full h-full transition duration-700 group-hover:rotate-180 ease">
+                            <span
+                                class="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-purple-500 rounded-full blur-md"></span>
+                            <span
+                                class="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-pink-500 rounded-full blur-md"></span>
+                        </span>
+                        <span class="relative text-white">Career Page</span>
+                    </a>
                 </div>
             </div>
         </div>

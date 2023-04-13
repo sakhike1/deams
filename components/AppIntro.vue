@@ -1,5 +1,5 @@
 <template>
-  <section id="Design" class="text-gray-600 bg-gradient-to-r from-gray-100 to-gray-300 py-20 body-font">
+  <section id="Design" class="text-gray-600 bg-gray-100 py-20 body-font">
     <div data-aos="fade-down">
       <div class="sm:flex flex-wrap justify-center items-center text-center gap-8">
         <div
