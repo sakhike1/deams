@@ -17,8 +17,8 @@
         <div class="flex h-auto">
           <div class="flex flex-col bg-white rounded-xl">
             <div class="flex-auto p-4 md:p-6">
-              <p class="text-xs text-gray-800">
-                " With Preline, we're able to easily track our performance in
+              <p class="text-xs text-gray-600">
+                With Preline, we're able to easily track our performance in
                 full detail. It's become an essential tool for us to grow and
                 engage with our audience. "
               </p>
@@ -48,8 +48,8 @@
         <div class="flex h-auto">
           <div class="flex flex-col bg-white rounded-xl">
             <div class="flex-auto p-4 md:p-6">
-              <p class="text-xs text-gray-800">
-                " In September, I will be using this theme for 2 years. I went
+              <p class="text-xs text-gray-600">
+                In September, I will be using this theme for 2 years. I went
                 through multiple updates and changes and I'm very glad to see
                 the consistency and effort made by the team. "
               </p>
@@ -81,8 +81,8 @@
         <div class="flex h-auto">
           <div class="flex flex-col bg-white rounded-xl">
             <div class="flex-auto p-4 md:p-6">
-              <p class="text-xs text-gray-800">
-                " Refreshing and Thought provoking design and it changes my view
+              <p class="text-xs text-gray-600">
+                Refreshing and Thought provoking design and it changes my view
                 about how I design the websites. Great typography, modern clean
                 white design, nice tones of the color. "
               </p>

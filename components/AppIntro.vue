@@ -14,7 +14,7 @@
           <h3 class="text-2xl sm:text-xl text-gray-400 font-semibold dark:text-white py-4">
             Do you have an app idea ?
           </h3>
-          <p class="text-md text-gray-500 dark:text-gray-300 py-4">
+          <p class="text-xs text-gray-500 dark:text-gray-300 py-4">
             We gather all the required information and analyze your business
             requirements, after that we begin validating your idea.
           </p>
@@ -29,7 +29,7 @@
           <h3 class="text-2xl sm:text-xl text-gray-400 font-semibold dark:text-white py-4">
             Design your app
           </h3>
-          <p class="text-md text-gray-500 dark:text-gray-300 py-4">
+          <p class="text-xs text-gray-500 dark:text-gray-300 py-4">
             Our goal is to create an intuitive, flawless, and great user
             experience that helps our clients win the UI/UX game.
           </p>
@@ -46,7 +46,7 @@
           <h3 class="text-2xl sm:text-xl text-gray-400 font-semibold dark:text-white py-4">
             Lets build your app
           </h3>
-          <p class="text-md text-gray-500 dark:text-gray-300 py-4">
+          <p class="text-xs text-gray-500 dark:text-gray-300 py-4">
             In this phase of SDLC, our experienced software developers transform
             your ideas into digital reality
           </p>
