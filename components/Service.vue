@@ -4,14 +4,8 @@
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
-            <p class="text-base leading-relaxed text-s text-left xl:w-2/4 lg:w-3/4 mx-auto">
-              Services
-            </p>
-            <h1
-              class="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-bl from-orange-400 to-purple-500 text-left xl:w-2/4 lg:w-3/4 mx-auto">
-              We provide advanced app solutions <br />
-              by Driving excellence
-            </h1>
+
+
           </div>
           <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
             <div class="p-2 sm:w-1/2 w-full">

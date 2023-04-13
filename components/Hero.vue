@@ -28,7 +28,7 @@
                                     Chat to us
                                 </h4>
                                 <p class="text-gray-400 text-xs dark:text-gray-400">
-                                    If you have an app idea its time to tal to us
+                                    If you have an app idea its time to talk to us
                                 </p>
                             </div>
                         </div>

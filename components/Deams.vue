@@ -3,7 +3,7 @@
     <!-- Contact Us -->
     <!-- Features -->
     <!-- Features -->
-    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div data-aos="fade-right" data-aos-duration="3000" class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       <!-- Title -->
 
       <!-- End Title -->
