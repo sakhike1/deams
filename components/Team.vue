@@ -162,7 +162,7 @@
             <div class="border  hover:border-indigo-700 p-1.5 pl-5 rounded-full">
                 <div class="flex items-center gap-x-3">
                     <span class="text-sm text-black">Want to work with us?</span>
-                    <a href="#_"
+                    <nuxt-link to="Career"
                         class="relative inline-flex items-center justify-center inline-block p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-full shadow-2xl group">
                         <span
                             class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-red-500 rounded-full blur-md ease"></span>
@@ -173,7 +173,7 @@
                                 class="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-pink-500 rounded-full blur-md"></span>
                         </span>
                         <span class="relative text-white">Career Page</span>
-                    </a>
+                    </nuxt-link>
                 </div>
             </div>
         </div>
