@@ -1,7 +1,7 @@
 <template>
   <div id="app" fixed>
     <div id=" nav" class="bg-gradient-to-r from-gray-100 to-gray-300 py-2">
-      <nav class="container px-6 py-6 mx-auto md:flex md:justify-between md:items-center">
+      <nav class="container px-6 py-2 mx-auto md:flex md:justify-between md:items-center">
         <div class="flex items-center justify-between">
           <nuxt-link to="/"
             class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-blue-500 md:text-2xl hover:text-blue-200">DEAMS
