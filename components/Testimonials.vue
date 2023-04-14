@@ -3,12 +3,7 @@
   <div class="overflow-hidden p-10 bg-gray-100">
     <div class="relative max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       <!-- Title -->
-      <div class="max-w-2xl w-3/4 lg:w-1/2 mb-6 sm:mb-10 md:mb-16">
-        <h2 class="text-2xl sm:text-3xl lg:text-2xl text-gray-400 font-semibold">
-          This is what they Said <br>
 
-        </h2>
-      </div>
       <!-- End Title -->
 
       <!-- Grid -->
@@ -113,7 +108,7 @@
       <!-- End Grid -->
 
       <!-- Grid -->
-      <div class="mt-20 grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-3 lg:gap-8">
+      <div class="mt-20 text-center grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-3 lg:gap-8">
         <!-- Stats -->
         <div>
           <h4 class="text-lg sm:text-xl font-semibold text-gray-400">

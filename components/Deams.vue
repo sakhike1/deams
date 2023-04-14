@@ -20,8 +20,8 @@
               </div>
 
               <div class="lg:order-1">
-                <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-3xl lg:leading-snug">Are you
-                  ready to <br class="hidden xl:block" />Tell your us about your app idea ?</h2>
+                <h2 class="text-2xl font-bold leading-tight text-white sm:text-4xl lg:text-2xl lg:leading-snug">Are you
+                  ready to <br class="hidden xl:block" />Tell us about your App idea ?</h2>
 
 
 
@@ -40,7 +40,7 @@
 
                   <nuxt-link to="Contact" title=""
                     class="inline-flex hover:scale-75 items-center justify-center px-4 py-4 mt-5 text-base font-semibold text-white transition-all duration-200 bg-transparent border border-white rounded-md sm:mt-0 hover:bg-white hover:text-black"
-                    role="button"> Reach Out to Us</nuxt-link>
+                    role="button"> Reach out to deams</nuxt-link>
                 </div>
               </div>
             </div>
