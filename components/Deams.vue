@@ -39,8 +39,8 @@
 
 
                   <nuxt-link to="Contact" title=""
-                    class="inline-flex hover:scale-75 items-center justify-center px-4 py-4 mt-5 text-base font-semibold text-white transition-all duration-200 bg-transparent border border-white rounded-md sm:mt-0 hover:bg-white hover:text-black"
-                    role="button"> Reach out to deams</nuxt-link>
+                    class="inline-flex hover:scale-75 items-center justify-center px-4 py-4 mt-5 text-base font-semibold text-white transition-all duration-200 bg-transparent rounded-full border-white border sm:mt-0 hover:bg-white hover:text-black"
+                    role="button"> Reach out to us</nuxt-link>
                 </div>
               </div>
             </div>
