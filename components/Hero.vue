@@ -5,6 +5,7 @@
                 class="drop-shadow-md hover:scale-125 hover:drop-shadow-blue-500/50 lg:bg-gray-50 dark:lg:bg-darker lg:p-16 rounded-[4rem] space-y-6 md:flex flex-row-reverse md:gap-6 justify-center md:space-y-0 lg:items-center">
                 <div class="md:5/12 lg:w-1/2">
                     <img src="~/assets/image.png" loading="lazy" width="" height="" />
+
                 </div>
                 <div class="md:7/12 lg:w-1/2">
                     <h2 class="text-2xl font-bold text-gray-400 md:text-2xl dark:text-white">
