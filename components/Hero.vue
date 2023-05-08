@@ -3,7 +3,7 @@
         <div class="xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-16">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
                 class="drop-shadow-md hover:scale-125 hover:drop-shadow-blue-500/50 lg:bg-gray-50 dark:lg:bg-darker lg:p-16 rounded-[4rem] space-y-6 md:flex flex-row-reverse md:gap-6 justify-center md:space-y-0 lg:items-center">
-                <div class="md:5/12 lg:w-1/2">
+                <div class="md:5/12 lg:w-1/2 hover:scale-95">
                     <img src="~/assets/image.png" loading="lazy" width="" height="" />
 
                 </div>

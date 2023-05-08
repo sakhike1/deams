@@ -71,7 +71,7 @@
             </div>
           </div>
           <button v-wave
-            class="flex mx-auto mt-16 text-white bg-blue-300 border-0 py-4 px-11 focus:outline-none hover:bg-blue-400 shadow-2xl rounded-full text-m">
+            class="flex mx-auto hover:scale-110  mt-16 text-white bg-blue-300 border-0 py-4 px-11 focus:outline-none hover:bg-blue-400 shadow-2xl rounded-full text-m">
             <Nuxt-link class="flex text-white" :to="{ path: 'Contact' }">Talk to us</Nuxt-link>
           </button>
         </div>
