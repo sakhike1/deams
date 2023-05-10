@@ -26,7 +26,7 @@
               Home</nuxt-link>
           </li>
           <li>
-            <nuxt-link class="joinBtn text-gray-500 text-tahiti text-sm " to="Reachout">Reach out
+            <nuxt-link class="joinBtn text-gray-500 text-tahiti text-sm hover:text-blue-300 " to="Reachout">Reach out
             </nuxt-link>
           </li>
           <li>

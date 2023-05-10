@@ -6,17 +6,16 @@
         <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
             <div class="max-w-2xl lg:max-w-5xl mx-auto">
                 <div class="sxt-left">
-                    <h2 data-aos="fade-up" data-aos-duration="3000" class="text-lg font-semibold leading-8 text-blue-300">
+                    <h2 class="text-lg font-semibold leading-8 text-blue-300">
                         Speak to us
                     </h2>
-                    <p data-aos="fade-up" data-aos-duration="3000"
-                        class="mt-2 text-3xl text-left font-bold tracking-tight text-gray-900 sm:text-4xl">
+                    <p class="mt-2 text-3xl text-left font-bold tracking-tight text-gray-900 sm:text-4xl">
                         We’ll Get Back To <br />
                         You Within 24hrs
                     </p>
                 </div>
 
-                <div data-aos="fade-up" data-aos-duration="3000"
+                <div
                     class="mt-12 grid items-center rounded-xl lg:bg-gray-50 dark:lg:bg-darker shadow-2xl lg:grid-cols-2 gap-6 lg:gap-16">
                     <!-- Card -->
                     <div class="flex flex-col rounded-xl p-4 sm:p-6 lg:p-8 dark:border-gray-100">
@@ -26,15 +25,15 @@
 
                         <form>
                             <div class="  ">
-                                <form action="https://usebasin.com/f/3cd9b65d1d5b" method="POST">
+                                <form @submit="handleSubmit">
                                     <div class="form-group mb-6">
-                                        <input required="required" v-model="form.surname" type="text"
+                                        <input required="required" v-model="name" type="text"
                                             class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border    rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                                             id="exampleInput7" placeholder="Name" />
                                         <div />
                                     </div>
                                     <div class="form-group mb-6">
-                                        <input required="required" v-model="form.email" type="email"
+                                        <input required="required" v-model="email" type="email"
                                             class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                                             id="exampleInput8" placeholder="Email address" />
                                     </div>
@@ -42,7 +41,7 @@
                                         <textarea required="required"
                                             class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                                             id="exampleFormControlTextarea13" rows="3" placeholder="Message"
-                                            v-model="form.Message"></textarea>
+                                            v-model="Message"></textarea>
                                     </div>
 
                                     <button onclick="showMessage()" type="submit"
@@ -119,47 +118,39 @@
 </template>
   
 <script>
+import axios from 'axios'
 export default {
     name: "ContactForm",
     data() {
         return {
-            form: {
-                name: "",
-                email: "",
-                message: "",
-            },
+            name: "",
+            email: "",
+            message: "",
+
 
         };
-        function showMessage() {
-            alert('Hello!');
-        }
-
     },
-
     methods: {
-        handleSubmit: async function () {
-            const formData = new FormData();
+        async handleSubmit() {
+            const data = {
+                name: this.name,
+                email: this.email,
+                message: this.message,
 
-            for (let [key, value] of Object.entries(this.form)) {
-                formData.append(key, value);
-            }
+            };
 
-            await axios
-                .post(
-                    "{https://formeezy.com/api/v1/forms/63b2b8aa9e4ddf0008515d85/submissions}",
-                    formData
+            alert('Message has been submitted');
+            axios.post('http://localhost:3000/register', data)
+                .then(
+                    res => {
+                        console.log(res)
+                    }
+                ).catch(
+                    err => {
+                        console.log(err)
+                    }
                 )
-
-                .then(({ data }) => {
-                    const { redirect } = data;
-                    // Redirect used for reCAPTCHA and/or thank you page
-
-                    window.location.href = redirect;
-                })
-                .catch((e) => {
-                    window.location.href = e.response.data.redirect;
-                });
-        },
+        }
     },
 };
 </script>
