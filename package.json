@@ -9,6 +9,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@cssninja/nuxt-toaster": "^0.3.12",
     "autoprefixer": "^10.4.14",
     "nuxt": "^3.3.2",
     "nuxt-icon": "^0.3.3",

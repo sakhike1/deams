@@ -163,7 +163,7 @@
                 <div class="flex items-center gap-x-3">
                     <span class="text-sm text-gray-500">Want to work with us?</span>
                     <nuxt-link to="Career"
-                        class="relative inline-flex items-center justify-center inline-block p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-full shadow-2xl group">
+                        class="relative  items-center justify-center inline-block p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-full shadow-2xl group">
                         <span
                             class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-red-500 rounded-full blur-md ease"></span>
                         <span class="absolute inset-0 w-full h-full transition duration-700 group-hover:rotate-180 ease">
