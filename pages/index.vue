@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-
+    <Title>deams</Title>
     <Nav />
     <Hero />
     <slider />

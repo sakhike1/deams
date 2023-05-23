@@ -27,7 +27,7 @@
                 <div
                   class="flex flex-col transform scale-100  items-start mt-8 sm:space-x-4 sm:flex-row sm:items-center lg:mt-12">
                   <nuxt-link to="Contact" title=""
-                    class="inline-flex hover:scale-75 items-center justify-center px-4 py-4 mt-5 text-base font-semibold  text-white transition-all duration-200 bg-transparent rounded-full border-2 border-white "
+                    class="inline-flex hover:scale-75 text-sm shadow-lg items-center justify-center px-4 py-4 mt-5 font-semibold  text-white transition-all duration-200 bg-transparent rounded-full border-2 border-white "
                     role="button">
                     Reach out to us</nuxt-link>
                 </div>

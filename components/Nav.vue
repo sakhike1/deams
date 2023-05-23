@@ -96,9 +96,4 @@ export default {
 .scale-slide-leave-to {
   transform: scale(0.8);
 }
-
-.joinBtn:hover {
-  display: inline-block;
-  color: royalblue;
-}
 </style>

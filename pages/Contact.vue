@@ -1,9 +1,10 @@
 <template>
-    <div>
-        <Nav />
-        <Contact />
-        <Footer />
-    </div>
+  <div>
+    <Title>Contact</Title>
+    <Nav />
+    <Contact />
+    <Footer />
+  </div>
 </template>
 
 <style>
@@ -11,6 +12,7 @@
 .page-leave-active {
   transition: all 0.4s;
 }
+
 .page-enter-from,
 .page-leave-to {
   opacity: 0;

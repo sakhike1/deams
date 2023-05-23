@@ -1,6 +1,6 @@
 <template>
     <div>
-
+        <Title>Reachout</Title>
         <ReachOut />
     </div>
 </template>
