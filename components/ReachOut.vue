@@ -47,7 +47,7 @@
                         </div>
 
                         <div>
-                            <img class="w-full" src="~/assets/coding.png" alt="" />
+                            <img class="w-full" src="~/assets/7742133.jpg" alt="" />
                         </div>
                     </div>
                 </div>
