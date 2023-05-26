@@ -24,7 +24,7 @@
                         <div class="max-w-xl mx-auto text-center">
                             <h2 data-aos="fade-up" data-aos-duration="3000"
                                 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-                                Deams helps you build beautiful website
+                                Deams helps you build eye pleasing apps
                             </h2>
                         </div>
 
