@@ -6,7 +6,8 @@
       <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <!-- Title -->
         <div class="w-2/3 sm:w-1/2 lg:w-1/3 mx-auto text-center mb-6">
-          <h2 class="text-gray-600 dark:text-gray-400">Trusted by Open Source, enterprise, and more than 99,000 of you
+          <h2 class="text-gray-600 dark:text-gray-400">
+            Trusted by Open Source, enterprise, and more than 99,000 of you
           </h2>
         </div>
         <!-- End Title -->
@@ -144,7 +145,7 @@
 
         <div class="mt-8 text-center">
           <nuxt-link
-            class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-full border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white"
+            class=" shadow-2xl py-5 hover:scale-125 px-8 inline-flex justify-center items-center gap-2 rounded-full border font-medium bg-white text-gray-700  align-middle hover:bg-gray-200 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white"
             to="Contact">
             Work with deams
             <svg class="w-3 h-3" width="16" height="16" viewBox="0 0 16 16" fill="none">

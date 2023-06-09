@@ -1,84 +1,92 @@
 <template>
   <section id="services" class="bg-gray-100 py-15">
     <div class="bg-gradient-to-r from-gray-100 to-gray-300 py-20 hover:rounded" data-aos="fade-down-right">
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="text-center mb-20">
-
-
-          </div>
-          <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-            <div class="p-2 sm:w-1/2 w-full">
-              <div class="bg-gray-100 hover:scale-75 rounded flex p-4 h-full items-center">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
-                  class="text-blue-300 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                  <path d="M22 4L12 14.01l-3-3"></path>
-                </svg>
-                <span class="title-font text-xs font-medium">Software Enhancement and Modernization</span>
-              </div>
+      <!-- Pricing -->
+      <div class="min-h-screen flex justify-center items-center py-20">
+        <div class="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 space-y-4 md:space-y-0">
+          <div
+            class="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+            <div class="relative">
+              <img class="w-full rounded-xl" src="~/assets/Frame 1 (7).png" alt="Colors" />
             </div>
-            <div class="p-2 sm:w-1/2 w-full">
-              <div class="bg-gray-100 hover:scale-75 rounded flex p-4 h-full items-center">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
-                  class="text-blue-300 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                  <path d="M22 4L12 14.01l-3-3"></path>
-                </svg>
-                <span class="title-font text-xs font-medium">Quality Custom Software Development</span>
-              </div>
-            </div>
-            <div class="p-2 sm:w-1/2 w-full">
-              <div class="bg-gray-100 hover:scale-75 rounded flex p-4 h-full items-center">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
-                  class="text-blue-300 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                  <path d="M22 4L12 14.01l-3-3"></path>
-                </svg>
-                <span class="title-font text-xs font-medium">Project Recovery Solutions</span>
-              </div>
-            </div>
-            <div class="p-2 sm:w-1/2 w-full">
-              <div class="bg-gray-100 hover:scale-75 rounded flex p-4 h-full items-center">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
-                  class="text-blue-300 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                  <path d="M22 4L12 14.01l-3-3"></path>
-                </svg>
-                <span class="title-font text-xs font-medium">Enterprise Software Development</span>
-              </div>
-            </div>
-            <div class="p-2 sm:w-1/2 w-full">
-              <div class="bg-gray-100 hover:scale-75 rounded flex p-4 h-full items-center">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
-                  class="text-blue-300 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                  <path d="M22 4L12 14.01l-3-3"></path>
-                </svg>
-                <span class="title-font text-xs font-medium">Software Maintenance Services</span>
-              </div>
-            </div>
-            <div class="p-2 sm:w-1/2 w-full">
-              <div class="bg-gray-100 hover:scale-75 rounded flex p-4 h-full items-center">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
-                  class="text-blue-300 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                  <path d="M22 4L12 14.01l-3-3"></path>
-                </svg>
-                <span class="title-font text-xs font-medium">Third-party Customization
-                </span>
-              </div>
+            <h1 class="mt-4 pt-5 text-2xl text-gray-500 font-bold cursor-pointer">
+              Validate your idea
+            </h1>
+            <p class="text-sm text-gray-400 pt-5">
+              Uncover valuable opportunities <br />
+              through data driven insights and build <br />
+              successful ventures
+            </p>
+            <div class="my-4">
+              <nuxt-link to="Contact">
+                <button id="myButton bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+                  class="mt-4 shadow-2xl text-sm bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 w-full py-5 text-white border border-gray-500 rounded-full ">
+                  Learn More
+                </button>
+              </nuxt-link>
             </div>
           </div>
-          <button v-wave
-            class="flex mx-auto hover:scale-110  mt-16 text-white bg-blue-300 border-0 py-4 px-11 focus:outline-none hover:bg-blue-400 shadow-2xl rounded-full text-m">
-            <Nuxt-link class="flex text-white" :to="{ path: 'Contact' }">Talk to us</Nuxt-link>
-          </button>
+          <div
+            class="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+            <div class="relative">
+              <img class="w-full rounded-xl" src="~/assets/Frame 1 (6).png" alt="Colors" />
+            </div>
+            <h1 class="mt-4 pt-5 text-2xl text-gray-500 font-bold cursor-pointer">
+              Design your app
+            </h1>
+            <p class="text-sm text-gray-400 pt-5">
+              Uncover valuable opportunities <br />
+              through data driven insights and build <br />
+              successful ventures
+            </p>
+            <div class="my-4">
+              <nuxt-link to="Contact">
+                <button id="myButton bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+                  class="mt-4 shadow-2xl text-sm bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 w-full py-5 text-white border border-gray-500 rounded-full ">
+                  Learn More
+                </button>
+              </nuxt-link>
+            </div>
+          </div>
+          <div
+            class="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+            <div class="relative">
+              <img class="w-full rounded-xl" src="~/assets/Frame 1 (5).png" alt="Colors" />
+            </div>
+            <h1 class="mt-4 pt-5 text-2xl text-gray-500 font-bold cursor-pointer">
+              UX/UI Audit
+            </h1>
+            <p class="text-sm text-gray-400 pt-5">
+              Uncover valuable opportunities <br />
+              through data driven insights and build <br />
+              successful ventures
+            </p>
+            <div class="my-4">
+              <nuxt-link to="Contact">
+                <button id="myButton bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+                  class="mt-4 shadow-2xl text-sm bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 w-full py-5 text-white border border-gray-500 rounded-full ">
+                  Learn More
+                </button>
+              </nuxt-link>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
+
+      <!-- End lg+ -->
     </div>
+    <!-- End Comparison table -->
+
+    <!-- End Pricing -->
   </section>
 </template>
+
+<script>
+
+
+</script>
+
+
 
 <style>
 .py-12 {
