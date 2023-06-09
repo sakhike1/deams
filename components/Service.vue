@@ -7,7 +7,7 @@
           <div
             class="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
             <div class="relative">
-              <img class="w-full rounded-xl" src="~/assets/Frame 1 (7).png" alt="Colors" />
+              <img class="w-full rounded-xl" src="~/assets/image2.png" alt="Colors" />
             </div>
             <h1 class="mt-4 pt-5 text-2xl text-gray-500 font-bold cursor-pointer">
               Validate your idea
@@ -29,7 +29,7 @@
           <div
             class="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
             <div class="relative">
-              <img class="w-full rounded-xl" src="~/assets/Frame 1 (6).png" alt="Colors" />
+              <img class="w-full rounded-xl" src="~/assets/image3.png" alt="Colors" />
             </div>
             <h1 class="mt-4 pt-5 text-2xl text-gray-500 font-bold cursor-pointer">
               Design your app
@@ -51,7 +51,7 @@
           <div
             class="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
             <div class="relative">
-              <img class="w-full rounded-xl" src="~/assets/Frame 1 (5).png" alt="Colors" />
+              <img class="w-full rounded-xl" src="~/assets/image1.png" alt="Colors" />
             </div>
             <h1 class="mt-4 pt-5 text-2xl text-gray-500 font-bold cursor-pointer">
               UX/UI Audit
