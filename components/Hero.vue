@@ -63,8 +63,9 @@ export default {
         function random1() {
             let random = [Math.floor(Math.random() * box2.length)]
             box.textContent = box2[random]
+            console.log(random1())
         }
-        console.log(random1())
+        setInterval(random1, 5000);
     },
 
 };
