@@ -3,16 +3,17 @@
         <div class="xl:container  m-auto px-6 text-gray-600 md:px-12 xl:px-16">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
                 class="drop-shadow-md bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 hover:scale-125 hover:drop-shadow-blue-500/50 lg:bg-gray-50 dark:lg:bg-darker lg:p-16 rounded-[4rem] space-y-6 md:flex flex-row-reverse md:gap-6 justify-center md:space-y-0 lg:items-center">
-                <div class="md:5/12 lg:w-1/2 hover:scale-95">
+                <div class="md:5/12 lg:w-1/2  hover:scale-95">
                     <img src="~/assets/image.png" loading="lazy" width="" height="" />
 
                 </div>
                 <div class="md:7/12 lg:w-1/2 py-4 m-4">
-                    <h2 class="text-2xl font-bold text-white md:text-2xl dark:text-white">
+                    <h2 id="box" class="text-xl m-10 font-semi-bold text-white md:text-1xl dark:text-white">
                         Our work is carried
                         out by
                         passionate <br> developers
                     </h2>
+
                     <div class="m-7  ">
                         <div class="divide-y space-y-4 divide-gray-100 dark:divide-gray-800">
                             <div class="mt-8 flex gap-4 md:items-center">
@@ -30,7 +31,7 @@
                                         Chat to us
                                     </h4>
                                     <p class=" text-xs text-white">
-                                        If you have an app idea its time to talk to us
+                                        Do you have an app idea that you'd like us to help you with
                                     </p>
                                 </div>
                             </div>
@@ -44,6 +45,8 @@
         </div>
     </div>
 </template>
+
+
   
 <script>
 import AOS from "aos";
@@ -51,8 +54,23 @@ import "aos/dist/aos.css";
 export default {
     mounted() {
         AOS.init({});
+
+        let box2 = ["Our work is carried out by passionate  developers who have experience", "We take into consideration every need that you have in order for us to deliver", "Our work does the talk we always go above and beyond expectations"]
+        let box = document.getElementById("box")
+
+
+
+        function random1() {
+            let random = [Math.floor(Math.random() * box2.length)]
+            box.textContent = box2[random]
+        }
+        console.log(random1())
     },
+
 };
+
+
+
 </script>
   
 <style src="@luxdamore/vue-cursor-fx/dist/CursorFx.css">

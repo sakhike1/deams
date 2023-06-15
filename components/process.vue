@@ -14,7 +14,7 @@
             <img
               src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
               alt="art cover" loading="lazy" width="1000" height="667"
-              class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
+              class="h-96 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
           </div>
           <div class="mt-6 text-left relative">
 
@@ -46,7 +46,7 @@
             <img
               src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
               alt="art cover" loading="lazy" width="1000" height="667"
-              class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
+              class="h-96 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
           </div>
           <div class="mt-6 text-left relative">
 
@@ -77,7 +77,8 @@
             <img
               src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
               alt="art cover" loading="lazy" width="1000" height="667"
-              class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
+              class="h-96 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
+
           </div>
           <div class="mt-6 text-left relative">
 
