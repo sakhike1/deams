@@ -18,9 +18,11 @@
           </div>
           <div class="mt-6 text-left relative">
 
-            <p class="mt-6 mb-8 text-gray-400 dark:text-gray-300">
-              Before we can move into any design, we need to understand why
-              we doing what we doing
+            <p class="text-xs mb-8 text-gray-400 dark:text-gray-300">
+              Design is an iterative process. Regularly monitor and analyze user feedback, metrics, and industry trends.
+              <br>
+              Stay up to date with design best practices and continuously improve your design to stay competitive and meet
+              <br> evolving user expectations
             </p>
             <Nuxt-link :to="{ path: 'contact' }"
               class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border border-gray-300 rounded-full group">
@@ -50,9 +52,11 @@
           </div>
           <div class="mt-6 text-left relative">
 
-            <p class="mt-6 mb-8 text-gray-400 dark:text-gray-300">
-              Our expertise helps create products that delight customers and
-              elevate their user experience
+            <p class="text-xs mb-8 text-gray-400 dark:text-gray-300">
+              Prioritize usability and accessibility in your design. Ensure that your design is easy to understand
+              and use with clear <br> instructions and intuitive interactions. Consider accessibility guidelines to make
+              your design inclusive and accessible <br> to a wider range of users
+
             </p>
             <Nuxt-link :to="{ path: 'contact' }"
               class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border border-black rounded-full group">
@@ -82,9 +86,10 @@
           </div>
           <div class="mt-6 text-left relative">
 
-            <p class="mt-6 mb-8 text-gray-400 dark:text-gray-300">
-              Our expertise helps create products that delight customers and
-              elevate their user experience
+            <p class="text-xs mb-8 text-gray-400 dark:text-gray-300">
+              Design with performance in mind. Optimize your design for fast loading times and smooth
+              interactions.<br>
+              Users appreciate designs that are efficient and responsive, contributing to a positive user experience
             </p>
             <nuxt-link :to="{ path: 'contact' }"
               class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border border-gray-300 rounded-full group">

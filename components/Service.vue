@@ -35,9 +35,9 @@
               Design your app
             </h1>
             <p class="text-sm text-gray-400 pt-5">
-              Uncover valuable opportunities <br />
-              through data driven insights and build <br />
-              successful ventures
+              Clearly articulate the purpose and goals of your app <br />
+              Determine the core features and <br /> functionalities your app will offer.
+
             </p>
             <div class="my-4">
               <nuxt-link to="Contact">
@@ -57,9 +57,9 @@
               UX/UI Audit
             </h1>
             <p class="text-sm text-gray-400 pt-5">
-              Uncover valuable opportunities <br />
-              through data driven insights and build <br />
-              successful ventures
+              Analyze the user flow and navigation structure <br /> of the application or website
+              Identify any bottlenecks and confusion.
+
             </p>
             <div id="f11" class="my-4 ">
               <nuxt-link to="Contact">

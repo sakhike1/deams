@@ -39,7 +39,9 @@
                     </div>
                 </div>
             </div>
+            <div class="div popup">
 
+            </div>
             <!-- <AnimatedCursor /> -->
             <!-- <scrollTopButton/> -->
         </div>
@@ -56,17 +58,23 @@ export default {
         AOS.init({});
 
         let box2 = ["Our work is carried out by passionate  developers who have experience", "We take into consideration every need that you have in order for us to deliver", "Our work does the talk we always go above and beyond expectations"]
-        let box = document.getElementById("box")
+        let box = document.getElementById("box");
+
 
 
 
         function random1() {
             let random = [Math.floor(Math.random() * box2.length)]
             box.textContent = box2[random]
+            box[2].style.color = "#232323";
             console.log(random1())
+
+
         }
         setInterval(random1, 5000);
+
     },
+
 
 };
 
