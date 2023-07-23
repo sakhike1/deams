@@ -1,8 +1,9 @@
 <template>
   <div>
+    <VueCursor />
     <Nav />
     <CareerPage />
-    <VueCursor />
+
     <Footer />
   </div>
 </template>
@@ -15,7 +16,7 @@
 import VueCursor from "../components/VueCursor.vue";
 export default {
     components: {
-        VueCursor
+      VueCursor: VueCursor
     }
 };
 </script>

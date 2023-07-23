@@ -1,5 +1,5 @@
 <template>
-  <div id="app" fixed>
+  <div id="app">
     <Title>deamstech</Title>
     <div id=" nav" class="bg-gradient-to-r from-gray-100 to-gray-300 py-2">
       <nav class="container px-6 py-2 mx-auto md:flex md:justify-between md:items-center">

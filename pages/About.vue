@@ -1,6 +1,7 @@
 <template>
     <div>
         <Title>About</Title>
+        <VueCursor />
         <About />
         <VueCursor />
         <Footer />
@@ -10,13 +11,13 @@
 import VueCursor from "../components/VueCursor.vue";
 export default {
     components: {
-        VueCursor
+        VueCursor: VueCursor
     }
 };
 </script>
 
 
-<style>
+<style >
 .page-enter-active,
 .page-leave-active {
     transition: all 0.4s;

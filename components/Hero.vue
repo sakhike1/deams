@@ -73,15 +73,12 @@ export default {
         setInterval(random1, 5000);
 
     },
-
-
-
 };
 
 
 </script>
   
-<style src="@luxdamore/vue-cursor-fx/dist/CursorFx.css">
+<style  src="@luxdamore/vue-cursor-fx/dist/CursorFx.css">
 .v-application .py-15 {
     padding-top: 60px !important;
     padding-bottom: 70px !important;

@@ -1,9 +1,10 @@
 <template>
   <div>
     <Title>Contact</Title>
+    <VueCursor />
     <Nav />
     <Contact />
-    <VueCursor />
+    
     <Footer />
   </div>
 </template>
@@ -12,7 +13,7 @@
 import VueCursor from "../components/VueCursor.vue";
 export default {
   components: {
-    VueCursor
+    VueCursor: VueCursor
   }
 };
 </script>

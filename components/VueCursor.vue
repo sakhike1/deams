@@ -1,10 +1,11 @@
 <template>
-    <span class="element" @mouseover="addColor" @mouseout="removeColor">
+    <nux-link class="element" @mouseover="addColor" @mouseout="removeColor">
         <span class="vueCursor"></span>
         <span class="vueCursor--Small"></span>
-    </span>
+    </nux-link>
 </template>
 <script>
+
 export default {
     props: {
         scaleElement: {},
@@ -50,12 +51,12 @@ export default {
          background-color: ${this.dotColor}`;
 
         });
-    }
+    },
 
 };
 </script>
   
-<style>
+<style src="@luxdamore/vue-cursor-fx/dist/CursorFx.css">
 * {
     cursor: none;
 }

@@ -10,7 +10,7 @@
 import VueCursor from "../components/VueCursor.vue";
 export default {
     components: {
-        VueCursor
+        VueCursor: VueCursor
     }
 };
 </script>
