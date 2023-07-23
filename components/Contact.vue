@@ -133,6 +133,7 @@ export default {
         name: this.name,
         email: this.email,
         message: this.message,
+
       };
 
       alert("Message has been submitted");

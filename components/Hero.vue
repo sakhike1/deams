@@ -62,12 +62,11 @@ export default {
 
 
 
-
         function random1() {
             let random = [Math.floor(Math.random() * box2.length)]
             box.textContent = box2[random]
-            box[2].style.color = "#232323";
             console.log(random1())
+
 
 
         }
@@ -76,8 +75,8 @@ export default {
     },
 
 
-};
 
+};
 
 
 </script>

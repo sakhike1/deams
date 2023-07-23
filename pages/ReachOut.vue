@@ -2,8 +2,18 @@
     <div>
         <Title>Reachout</Title>
         <ReachOut />
+        <VueCursor />
     </div>
 </template>
+
+<script>
+import VueCursor from "../components/VueCursor.vue";
+export default {
+    components: {
+        VueCursor
+    }
+};
+</script>
 
 <style>
 .page-enter-active,

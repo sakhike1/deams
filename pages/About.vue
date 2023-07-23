@@ -2,12 +2,19 @@
     <div>
         <Title>About</Title>
         <About />
+        <VueCursor />
         <Footer />
     </div>
 </template>
 <script>
-
+import VueCursor from "../components/VueCursor.vue";
+export default {
+    components: {
+        VueCursor
+    }
+};
 </script>
+
 
 <style>
 .page-enter-active,
