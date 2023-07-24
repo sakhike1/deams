@@ -1,7 +1,10 @@
 <template>
     <div>
         <Title>Reachout</Title>
+
         <ReachOut />
+
+
         <VueCursor />
     </div>
 </template>
