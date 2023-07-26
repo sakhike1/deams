@@ -11,10 +11,12 @@
         <div data-aos="fade-right"
           class="group p-8 sm:p-6 rounded-2xl bg-white dark:shadow-none dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
           <div class="relative overflow-hidden rounded-xl">
-            <img
-              src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
-              alt="art cover" loading="lazy" width="1000" height="667"
-              class="h-96 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
+            <nuxt-link to="Contact">
+              <img
+                src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
+                alt="art cover" loading="lazy" width="1000" height="667"
+                class="h-96 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
+            </nuxt-link>
           </div>
           <div class="mt-6 text-left relative">
 
@@ -45,10 +47,12 @@
         <div data-aos="fade-right"
           class="group p-6 sm:p-8 rounded-3xl bg-white border-gray-100 dark:shadow-none dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
           <div class="relative overflow-hidden rounded-xl">
-            <img
-              src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
-              alt="art cover" loading="lazy" width="1000" height="667"
-              class="h-96 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
+            <NuxtLink to="Contact">
+              <img
+                src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
+                alt="art cover" loading="lazy" width="1000" height="667"
+                class="h-96 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
+            </NuxtLink>
           </div>
           <div class="mt-6 text-left relative">
 
@@ -78,11 +82,12 @@
         <div data-aos="fade-right"
           class="group p-6 sm:p-8 rounded-3xl bg-white dark:shadow-none dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
           <div class="relative overflow-hidden rounded-xl">
-            <img
-              src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
-              alt="art cover" loading="lazy" width="1000" height="667"
-              class="h-96 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
-
+            <nuxt-link to="Contact">
+              <img
+                src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
+                alt="art cover" loading="lazy" width="1000" height="667"
+                class="h-96 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
+            </nuxt-link>
           </div>
           <div class="mt-6 text-left relative">
 
