@@ -25,13 +25,14 @@ export default {
                     src: 'https://i.ibb.co/197kbTG/7856001.jpg"',
                 },
                 {
-                    src: 'https://i.ibb.co/jwZxJKn/4380747.jpg',
+                    src: 'https://i.ibb.co/JR5C3fh/5035108.jpg',
                 },
                 {
-                    src: 'https://i.ibb.co/JR5C3fh/5035108.jpg',
+                    src: ' https://i.ibb.co/jwZxJKn/4380747.jpg',
                 },
             ]
         };
+       
     },
 
 
