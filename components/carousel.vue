@@ -19,7 +19,7 @@ export default {
         return {
             items: [
                 {
-                    src: 'https://i.ibb.co/wQ97NS7/3081648.jpg',
+                    src: 'https://i.ibb.co/JR5C3fh/5035108.jpg',
                 },
                 {
                     src: 'https://i.ibb.co/197kbTG/7856001.jpg"',
