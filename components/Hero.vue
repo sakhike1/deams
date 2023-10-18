@@ -2,13 +2,13 @@
     <div class="py-16 bg-gradient-to-r from-gray-100 to-gray-300">
         <div class="xl:container  m-auto px-6 text-gray-600 md:px-12 xl:px-16">
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
-                class="drop-shadow-md bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 hover:scale-125 hover:drop-shadow-blue-500/50 lg:bg-gray-50 dark:lg:bg-darker lg:p-16 rounded-[4rem] space-y-6 md:flex flex-row-reverse md:gap-6 justify-center md:space-y-0 lg:items-center">
+                class="drop-shadow-md bg-gradient-to-r from-slate-500 to-yellow-100 hover:scale-125 hover:drop-shadow-blue-500/50 lg:bg-gray-50 dark:lg:bg-darker lg:p-16 rounded-[4rem] space-y-6 md:flex flex-row-reverse md:gap-6 justify-center md:space-y-0 lg:items-center">
                 <div class="md:5/12 lg:w-1/2  hover:scale-95">
                     <img src="~/assets/image.png" loading="lazy" width="" height="" />
 
                 </div>
                 <div class="md:7/12 lg:w-1/2 py-4 m-4">
-                    <h2 id="box" class="text-xl m-10 font-semi-bold text-white md:text-1xl dark:text-white">
+                    <h2 id="box" class="text-l m-10 font-semi-bold text-gray-100 md:text-1xl dark:text-white">
                         Our work is carried
                         out by
                         passionate <br> developers
@@ -27,10 +27,10 @@
                                     </svg>
                                 </nuxt-link>
                                 <div class="w-5/6">
-                                    <h4 class="font-semibold text-lg  text-white">
+                                    <h4 class="font-semibold text-lg  text-gray-100">
                                         Chat to us
                                     </h4>
-                                    <p class=" text-xs text-white">
+                                    <p class=" text-xs text-gray-100">
                                         Do you have an app idea that you'd like us to help you with
                                     </p>
                                 </div>
