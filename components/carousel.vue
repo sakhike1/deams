@@ -3,13 +3,16 @@
         <v-carousel cycle hide-delimiters show-arrows="hover" width="40vh">
             <v-carousel-item v-for="(item, i) in items" :key="i" :src="item.src" reverse-transition="fade-transition"
                 transition="fade-transition">
-                <v-row class="title fill-height hidden-xs-only" align="center" justify="center">{{ item.title }}</v-row>
+                <v-row class="title fill-height hidden-xs-only" align="center" justify="center">
+                    {{ item.title }}
+                </v-row>
             </v-carousel-item>
         </v-carousel>
     </div>
+    <!-- Make sure you import the 'Consultation' component and use it like this -->
     <Consultation />
 </template>
-  
+    
 <script>
 import "aos/dist/aos.css";
 export default {
@@ -17,29 +20,28 @@ export default {
     data() {
         return {
             items: [
-
                 {
-
                     src: 'https://i.ibb.co/Mcw1HKy/undraw-undraw-team-effort-7w2e-6lax.png',
+                    title: 'Item 1' // Add a title property for each item
                 },
                 {
                     src: 'https://i.ibb.co/ynDKNSG/undraw-Learning-re-32qv.png',
+                    title: 'Item 2'
                 },
                 {
                     src: 'https://i.ibb.co/Mcw1HKy/undraw-undraw-team-effort-7w2e-6lax.png',
+                    title: 'Item 3'
                 },
                 {
                     src: 'https://i.ibb.co/ynDKNSG/undraw-Learning-re-32qv.png',
+                    title: 'Item 4'
                 },
             ]
         };
-
     },
-
-
     mounted() {
         AOS.init({});
     },
 };
-
 </script>
+  
