@@ -22,19 +22,19 @@ export default {
             items: [
                 {
                     src: 'https://i.ibb.co/Mcw1HKy/undraw-undraw-team-effort-7w2e-6lax.png',
-                    title: 'Item 1' // Add a title property for each item
+
                 },
                 {
                     src: 'https://i.ibb.co/ynDKNSG/undraw-Learning-re-32qv.png',
-                    title: 'Item 2'
+
                 },
                 {
                     src: 'https://i.ibb.co/Mcw1HKy/undraw-undraw-team-effort-7w2e-6lax.png',
-                    title: 'Item 3'
+
                 },
                 {
                     src: 'https://i.ibb.co/ynDKNSG/undraw-Learning-re-32qv.png',
-                    title: 'Item 4'
+
                 },
             ]
         };
