@@ -11,14 +11,15 @@
 </template>
   
 <script>
-import AOS from "aos";
 import "aos/dist/aos.css";
 export default {
     name: "Hero",
     data() {
         return {
             items: [
+
                 {
+
                     src: 'https://i.ibb.co/Mcw1HKy/undraw-undraw-team-effort-7w2e-6lax.png',
                 },
                 {
@@ -32,6 +33,7 @@ export default {
                 },
             ]
         };
+
     },
 
 
