@@ -1,7 +1,7 @@
 <template>
     <section data-aos="fade-right" data-aos-duration="3000" class="2xl:py-24 2xl:bg-gray-50">
         <div
-            class="px-4 shadow-xl mx-auto Pastel bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 max-w-7xl sm:px-6 lg:px-8 2xl:rounded-xl">
+            class="px-4 shadow-xl mx-auto Pastel bg-gradient-to-r from-slate-500 to-yellow-100 max-w-7xl sm:px-6 lg:px-8 2xl:rounded-xl">
             <div class="py-10 sm:py-16 lg:py-24 2xl:pl-24">
                 <div class="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-8 2xl:gap-x-20">
                     <div class="lg:order-2 2xl:-mr-24">

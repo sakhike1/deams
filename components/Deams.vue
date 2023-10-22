@@ -10,7 +10,7 @@
 
       <!-- Grid -->
       <section class="py-10 rounded-full lg:py-0">
-        <div class="px-4 mx-auto bg-gradient-to-r from-orange-400 to-rose-400 max-w-7xl sm:px-6 lg:px-8 2xl:rounded-xl">
+        <div class="px-4 mx-auto bg-gradient-to-r from-slate-500 to-yellow-100 max-w-7xl sm:px-6 lg:px-8 2xl:rounded-xl">
           <div class="py-10 sm:py-16 lg:py-24 2xl:pl-24">
             <div class="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-8 2xl:gap-x-20">
               <div class="lg:order-2 2xl:-mr-24">
